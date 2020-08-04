@@ -1,0 +1,107 @@
+body {
+    font-size: 120%;
+    font-family: Verdana, "Lucida Sans Unicode", sans-serif;
+    color: #263238;
+    background-color: #EFEFEF;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+    font-weight: normal;
+}
+nav {
+    background-color: #263238;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    /* margin: auto; */
+    justify-content: center;
+    padding-left: 0;
+}
+nav a:hover {
+    background-color: #EFEFEF;
+    color: #263238;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+}
+nav a.aktuell {
+    background-color: #EFEFEF;
+    font-weight: bold;
+    color: #263238;
+}
+main {
+    max-width: 62rem;
+    margin:auto;
+}
+div.karteikarten {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main a {
+    text-decoration: none;
+    color: #263238;
+}
+article {
+    max-width: 30%;
+    margin: 1rem 1rem;
+    background-color: #DEDEDE;
+    border-radius: 1rem;
+}
+h2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+article img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+article p {
+    margin: 1rem;
+    overflow-wrap: break-word;
+}
+dt {
+    font-weight: bold;
+}
+div.fakten {
+    background-color: #DEDEDE;
+    border-radius: 1rem;
+    margin:auto;
+    padding: 1rem;
+}
+.fakten ol {
+    padding-left: 4rem;
+}
+footer {
+    background-color: #263238;
+    color: white;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+
+@media screen and (max-width: 530px) {
+    main {
+      display: block;
+      text-align: center;
+    }
+    article {
+      max-width: 80%;
+      margin:auto;
+      margin-bottom: 1rem;
+    }
+    .fakten {
+        max-width: 90%;
+    }
+  } 
